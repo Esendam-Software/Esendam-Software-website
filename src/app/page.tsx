@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center relative overflow-hidden sm:py-12">
       <div className="max-w-7xl mx-auto">
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-900 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative mx-2 px-7 py-6 bg-white ring-1 ring-gray-300 rounded-lg shadow-lg">
             <Image
               src="/ES-logo.svg"

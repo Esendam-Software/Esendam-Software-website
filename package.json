@@ -27,7 +27,7 @@
     "typescript": "5.3.2"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.7.4",
+    "@cloudflare/next-on-pages": "^1.8.0",
     "eslint-plugin-next-on-pages": "^1.8.0",
     "vercel": "^32.5.6"
   }

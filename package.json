@@ -13,7 +13,7 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
-    "@types/node": "20.11.26",
+    "@types/node": "20.11.27",
     "@types/react": "18.2.65",
     "@types/react-dom": "18.2.22",
     "autoprefixer": "10.4.18",

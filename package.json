@@ -13,9 +13,9 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "@types/node": "^24.2.1",
-    "@types/react": "^19.1.9",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "eslint": "^8.57.1",
     "eslint-config-next": "^15.4.6",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.13",
-    "eslint-plugin-next-on-pages": "^1.13.13",
-    "vercel": "^44.7.3"
+    "eslint-plugin-next-on-pages": "^1.13.14",
+    "vercel": "^46.0.1"
   }
 }

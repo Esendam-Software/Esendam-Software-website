@@ -7,17 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages@1",
-    "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static",
-    "pages:watch": "npx @cloudflare/next-on-pages@1 --watch",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
+    "cf:build": "npx opennextjs-cloudflare build",
+    "cf:deploy": "npm run cf:build && npx opennextjs-cloudflare deploy",
+    "cf:dev": "npm run cf:build && npx opennextjs-cloudflare preview"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.17",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^8.57.1",
     "eslint-config-next": "^16.0.6",
     "next": "^16.0.6",
     "postcss": "^8.5.6",
@@ -27,8 +25,8 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
-    "eslint-plugin-next-on-pages": "^1.13.16",
-    "vercel": "^48.12.0"
+    "@opennextjs/cloudflare": "^1.14.4",
+    "eslint": "^9.39.1",
+    "wrangler": "^4.53.0"
   }
 }
